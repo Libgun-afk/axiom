@@ -100,17 +100,15 @@
 //   );
 // }
 
-import Test from "@/components/Test";
+import HomePage from "@/components/Home";
+import Header from "@/components/Test";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      page
-      <div>
-        <button>asd</button>
-        <Test />
-      </div>
+      <Header />
+      <HomePage />
     </div>
   );
 };
