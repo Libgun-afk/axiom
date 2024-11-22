@@ -100,6 +100,7 @@
 //   );
 // }
 
+import Test from "@/components/Test";
 import React from "react";
 
 const page = () => {
@@ -108,6 +109,7 @@ const page = () => {
       page
       <div>
         <button>asd</button>
+        <Test />
       </div>
     </div>
   );
