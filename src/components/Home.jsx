@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 
 const HomePage = () => {
@@ -8,12 +10,12 @@ const HomePage = () => {
         className="bg-cover bg-center h-screen"
         style={{
           backgroundImage:
-            "url('https://hsquareadvisors.com/wp-content/uploads/2024/02/Finance.jpg')",
+            "url('https://www.opentech.it/wp-content/uploads/2022/09/auditing-software.png')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 "></div>
         <div className="flex justify-between ">
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4 ">
+          <div className="absolute inset-0 flex flex-col justify-center items-center mb-[250px] text-center text-white px-4 ">
             <h2 className="text-lg font-semibold mb-2">24 Dec at Royal Hall</h2>
             <h1 className="text-4xl font-bold mb-4">
               Find Your Path to a Brighter Financial Future
@@ -27,7 +29,6 @@ const HomePage = () => {
               </button>
             </div>
           </div>
-          <div>aasdasndjoahfuiagfiuaiuyf</div>
         </div>
       </div>
     </section>

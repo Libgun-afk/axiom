@@ -1,3 +1,5 @@
+/** @format */
+
 // import Image from "next/image";
 
 // export default function Home() {
@@ -101,14 +103,23 @@
 // }
 
 import HomePage from "@/components/Home";
-import Header from "@/components/Test";
+import Home2 from "@/components/Home2";
+import Home3 from "@/components/Home3";
+import Header from "@/components/Header";
+import Test1 from "@/components/Test1";
+import Test2 from "@/components/Test2";
 import React from "react";
+import Hehe from "@/components/Hehe";
 
 const page = () => {
   return (
     <div>
-      <Header />
-      <HomePage />
+      <Test1 />
+      <Hehe />
+      <Home3 />
+      {/* <HomePage />
+      <Home2 />
+      <Home3 /> */}
     </div>
   );
 };

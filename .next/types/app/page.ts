@@ -1,4 +1,4 @@
-// File: /Users/24LP0612/Desktop/axiom/client/src/app/page.jsx
+// File: /Users/bilguundavaadorj/Desktop/axiom/client/src/app/page.jsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
